@@ -1,0 +1,23 @@
+{
+  "name": "digitalrazor_test_frontend",
+  "version": "1.0.0",
+  "description": "test for digitalrazor vacancy",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "author": "Vasili Shlykoff",
+  "dependencies": {
+    "maska": "^3.0.3",
+    "pinia": "^2.2.6",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8"
+  }
+}
